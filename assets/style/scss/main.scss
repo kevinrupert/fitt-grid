@@ -58,6 +58,10 @@ body {
   line-height: $base-line-height;
   color: $black;
   -webkit-font-smoothing: antialiased;
+  ::selection {
+    background: $black;
+    color: $white;
+  }
 }
 
 .page {
